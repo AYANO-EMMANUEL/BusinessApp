@@ -18,6 +18,10 @@ body{
     background-color: var(--fichaya-purple, #01037C) !important;
 }
 
+.REQInfo{
+    background: var(--appeal-blue, #2E2E99) !important;
+}
+
 .hFont{
     color: var(--fichaya-secondary-blcak, #606077) !important;
     font-size: 16px !important;
@@ -31,4 +35,30 @@ body{
     font-size: 16px !important;
     font-family: 'Mukta' !important;
     letter-spacing: 0.64px !important;
+}
+
+.Ungenerated{
+    border-radius: 4px !important;
+    /* display: block; */
+    background: rgb(255, 153, 31, 0.15000000596046448) !important;
+    /* opacity: 0.15000000596046448 !important; */
+}
+
+.UngeneratedColor{
+    color: #FF991F !important;
+    font-size: 14px !important;
+    font-family: 'Mukta' !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+}
+
+.mb{
+    margin-bottom: 20% !important;
+}
+
+.COHeader{
+    color: var(--fichaya-secondary-blcak, #606077);
+    font-size: 16px;
+    font-family: Mukta;
+    letter-spacing: 0.64px;
 }

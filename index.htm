@@ -11,20 +11,20 @@
 </head>
 <body>
     <nav class="bgwhite">
-        <div class="container mx-auto py-3">
+        <div class="container mx-auto py-3 pb-0">
             <div class="nav justify-content-between align-items-center">
-                <div class="nav-item">
+                <div class="nav-item pb-3">
                     <img src="/images/headerIcon.jpg" alt="" class="">
                 </div>
-                <div class="d-flex justify-content-between text-primary hFont">
+                <div class="d-flex justify-content-between  text-primary hFont">
                 <!-- <div class="nav-item"> -->
-                    <div class="px-2 py-3">DASHBOARD</div>
-                    <div class="px-2 py-3">CUSTOMERS</div>
-                    <div class="px-2 py-3">ASSOCIATES</div>
-                    <div class="px-2 REQ border-4 border-bottom border-primary py-3" style="font-size: 18px; font-weight:500;">REQUESTS</div>
-                    <div class="px-2 py-3">SCHEDULES</div>
-                    <div class="px-2 py-3">PAYMENTS</div>
-                    <div class="px-2 py-3">SETTINGS</div>
+                    <div class="px-2 py-3 COHeader">DASHBOARD</div>
+                    <div class="px-2 py-3 COHeader">CUSTOMERS</div>
+                    <div class="px-2 py-3 COHeader">ASSOCIATES</div>
+                    <div class="px-2 REQ border-4 border-bottom border-primary py-3 pb-4" style="font-size: 18px; font-weight:500;">REQUESTS</div>
+                    <div class="px-2 py-3 COHeader">SCHEDULES</div>
+                    <div class="px-2 py-3 COHeader">PAYMENTS</div>
+                    <div class="px-2 py-3 COHeader">SETTINGS</div>
                 </div>
                 <div class="bg-primary">
                     <!-- <span class="bg-primary p-3">
@@ -43,9 +43,70 @@
 
     <main>
         <div class="container mt-5">
-            <button class="btn text-light blueBackground my-3">Request Information</button>
-            <div class="bgwhite">
-                
+            <button class="btn text-light blueBackground my-4 RQInfo">Request Information</button>
+            <div class="row mx-0 align-items-between">
+                <div class="bgwhite col-8 px-5 py-4">
+                    <div class="d-flex justify-content-between">
+                            <div class="col-4 pe-4 d-grid align-items-between" style="">
+                                <div class="col-8 text-start mb">                                
+                                    <h6 class="text-nowrap text-muted">REQUEST TYPE</h6>
+                                    <h5 class="colorBold">POST-CON</h5>
+                                </div>           
+                                <div class="col-7 text-start mb">
+                                    <h6 class="text-nowrap text-muted" style="width: max-content;">INVOICE STATUS</h6>
+                                    <button class="px-3 py-2 Ungenerated UngeneratedColor border-0">
+                                        UNGENERATED
+                                    </button>
+                                    <!-- <div class="px-3 py-2 Ungenerated">
+                                        <div class="UngeneratedColor">UNGENERATED</div>
+                                    </div> -->
+                                </div>         
+                                <div class="col-8 text-start pb-auto">                       
+                                    <h6 class="text-nowrap text-muted">LOCATION</h6>
+                                    <h5 class="colorBold" style="font-weight: 600;">
+                                        8, YOVI Street, <br> 
+                                        IWAYA, ONIKE, YABA.
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <div class="col-5 pe-4 d-grid align-items-between">
+                                <div class="col-10 text-start">                       
+                                    <h6 class="text-nowrap text-muted">CUSTOMER NAME</h6>
+                                    <h5 class="colorBold">PETER ABU-EKPESHIE</h5>
+                                </div> 
+                                    <div class="col-10 text-start">
+                                    <h6 class="text-nowrap text-muted">REQUEST DATE</h6>
+                                    <h5 class="colorBold">06•10•2016</h5>
+                                </div>                        
+                                    <div class="col-10 text-start">
+                                    <h6 class="text-nowrap text-muted">HOUSE-TYPE</h6>
+                                    <h5 class="colorBold">5-BEDROOM DUPLEX</h5>
+                                </div>                        
+                            </div>
+
+                            <div class="col-5 d-grid align-items-between">          
+                                <div class="col-8 text-start">
+                                    <h6 class="text-nowrap text-muted">CLEANING DATE</h6>
+                                    <h5 class="colorBold">09•10•2019</h5>
+                                </div>
+                                <div class="col-8 text-start">
+                                    <h6 class="text-nowrap text-muted">REQUEST TIME</h6>
+                                    <h5 class="colorBold">8:00 A.M</h5>
+                                </div>
+                                <div class="col-8 text-start">
+                                    <!-- <h6 class="">REQUEST TIME</h6> -->
+                                    <p class=" text-muted text-wrap colorBold">Some fantastic piece of extra information that’s necessary</p>
+                                </div>
+                            </div>
+                            <!-- <div class="col-8"> -->
+                                <!-- </div> -->
+                        </div>
+                    <hr class="d-block w-100">
+                        <div class="d-block text-end pt-4">
+                            <button class="btn btn-lg px-5 REQInfo text-light text-end">ACTION</button>
+                        </div>
+                    </div>
             </div>
         </div>
     </main>
