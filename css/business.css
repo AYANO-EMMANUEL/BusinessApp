@@ -1,0 +1,34 @@
+body{
+    font-family: 'Mukta' !important;
+    background: #F6F6FF !important;
+}
+
+.bgwhite{
+    background-color: #FFF !important;
+}
+.color{
+    color: var(--fichaya-secondary-blcak, #606077) !important;
+}
+
+.colorBold{
+    color: var(--fichaya-purple, #01037C) !important;
+}
+
+.blueBackground{
+    background-color: var(--fichaya-purple, #01037C) !important;
+}
+
+.hFont{
+    color: var(--fichaya-secondary-blcak, #606077) !important;
+    font-size: 16px !important;
+    font-family: 'Mukta' !important;
+    letter-spacing: 0.64px !important;
+}
+
+.REQ{
+    color: var(--fichaya-purple, #01037C) !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    font-family: 'Mukta' !important;
+    letter-spacing: 0.64px !important;
+}
