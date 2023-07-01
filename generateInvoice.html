@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Invoice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/business.css">
+</head>
+<body class="bg-light">
+    <nav class="bgwhite">
+        <div class="container mx-auto py-3 pb-0">
+            <div class="nav justify-content-between align-items-center">
+                <div class="nav-item pb-3">
+                    <img src="/images/headerIcon.jpg" alt="" class="">
+                </div>
+                <div class="d-flex justify-content-between  text-primary hFont">
+                <!-- <div class="nav-item"> -->
+                    <div class="px-2 py-3 COHeader">DASHBOARD</div>
+                    <div class="px-2 py-3 COHeader">CUSTOMERS</div>
+                    <div class="px-2 py-3 COHeader">ASSOCIATES</div>
+                    <div class="px-2 REQ border-4 border-bottom border-primary py-3 pb-4" style="font-size: 18px; font-weight:500;">REQUESTS</div>
+                    <div class="px-2 py-3 COHeader">SCHEDULES</div>
+                    <div class="px-2 py-3 COHeader">PAYMENTS</div>
+                    <div class="px-2 py-3 COHeader">SETTINGS</div>
+                </div>
+                <div class="bg-primary">
+                    <!-- <span class="bg-primary p-3">
+                        <img src="/images/notification.jpg" alt="">
+                    </span>
+                    <span class="bg-primary p-3">
+                        <img src="/images/info-icon.jpg" alt="">
+                        <img src="/images/clickDown.jpg" alt="">
+                    </span> -->
+                    <!-- <i class="fa-duotone fa-user"></i>
+                    <i class="fa-thin fa-circle-chevron-down"></i> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12 text-start">
+                    <div class="text-light bg-primary d-inline-block shadow p-1 mb-3">Generate invoice</div>
+                    <div class="text-muted px-0 py-3" style="font-weight: 500;">ENTER INVOICE INFO</div>
+                </div>
+                <div class="row ms-0 d-grid" style="grid-template-columns: 12fr 12fr;grid-column: m;">                    
+                    <div class="col-6 bgwhite rounded" style="padding-bottom:10%;">
+                        <div class="px-4 pt-5 pb-3">
+                            <div class="">Customer/Company name</div>
+                            <input type="text" class="col-12 p-3 border border-1 border-warning rounded" placeholder="Spleet Limited">
+                        </div>
+                        <div class="px-4 d-flex justify-content-between">
+                            <div class="col-6 pe-3">                                
+                                <div class="text-start">Email address</div>
+                                <input type="email" class="col-12 p-3 border border-1 border-warning rounded" placeholder="info@spleet.ng">
+                            </div>
+                            <div class="col-6">                                
+                                <div class="text-start">Phone number</div>
+                                <input type="number" class="col-12 p-3 border border-1 border-warning rounded" placeholder="+23481000000000">
+                            </div>
+                        </div>
+                        <div class="px-4 pt-3 pb-3">
+                            <div class="">Home/ Building Address</div>
+                            <input type="text" class="col-12 p-3 border border-1 border-warning rounded" placeholder="51, Iwaya Road, Onike, Iwaya">
+                        </div>
+                    </div>
+                    <div class="col-6 bgwhite rounded" style="padding-bottom:10%;">
+                        <div class="pt-5 px-4 pb-3 d-flex justify-content-between">
+                            <div class="col-6 pe-3">                                
+                                <div class="text-start">Issue date</div>
+                                <input type="date" class="col-12 p-3 border border-1 border-warning rounded" placeholder="08/10/2020">
+                            </div>
+                            <div class="col-6">                                
+                                <div class="text-start">Due date</div>
+                                <input type="date" class="col-12 p-3 border border-1 border-warning rounded" placeholder="08/12/2020">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
