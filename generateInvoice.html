@@ -47,8 +47,8 @@
                     <div class="text-light bg-primary d-inline-block shadow p-1 mb-3">Generate invoice</div>
                     <div class="text-muted px-0 py-3" style="font-weight: 500;">ENTER INVOICE INFO</div>
                 </div>
-                <div class="row ms-0 d-grid" style="grid-template-columns: 12fr 12fr;grid-column: m;">                    
-                    <div class="col-6 bgwhite rounded" style="padding-bottom:10%;">
+                <div class="row ms-0 justify-content-between" style="grid-column: 1/5; flex:nowrap !important;">                    
+                    <div class="ms-0 bgwhite rounded" style="width: 49.5%; padding-bottom:10%;">
                         <div class="px-4 pt-5 pb-3">
                             <div class="">Customer/Company name</div>
                             <input type="text" class="col-12 p-3 border border-1 border-warning rounded" placeholder="Spleet Limited">
@@ -64,12 +64,12 @@
                             </div>
                         </div>
                         <div class="px-4 pt-3 pb-3">
-                            <div class="">Home/ Building Address</div>
+                            <div class="text-start">Home/ Building Address</div>
                             <input type="text" class="col-12 p-3 border border-1 border-warning rounded" placeholder="51, Iwaya Road, Onike, Iwaya">
                         </div>
                     </div>
-                    <div class="col-6 bgwhite rounded" style="padding-bottom:10%;">
-                        <div class="pt-5 px-4 pb-3 d-flex justify-content-between">
+                    <div class="co bgwhite rounded" style="width:49.5%; margin-left:1e; padding-bottom:auto;">
+                        <div class="pt-5 px-4 pb-2 d-flex justify-content-between">
                             <div class="col-6 pe-3">                                
                                 <div class="text-start">Issue date</div>
                                 <input type="date" class="col-12 p-3 border border-1 border-warning rounded" placeholder="08/10/2020">
@@ -78,6 +78,36 @@
                                 <div class="text-start">Due date</div>
                                 <input type="date" class="col-12 p-3 border border-1 border-warning rounded" placeholder="08/12/2020">
                             </div>
+                        </div>
+                        <div class="pt-2 px-4 pb-2 d-flex justify-content-between">
+                            <div class="col-6 pe-3">                                
+                                <div class="text-start">Invoice number</div>
+                                <input type="number" class="col-12 p-3 border border-1 border-warning rounded" placeholder="000000001">
+                            </div>
+                            <div class="col-6">                                
+                                <div class="text-start">V.A.T %</div>
+                                <input type="number" class="col-12 p-3 border border-1 border-warning rounded" placeholder="7.5%">
+                            </div>
+                        </div>
+                        <div class="px-4 pt-2 pb-2">
+                            <div class="text-start">Service description</div>
+                            <input type="text" class="col-12 p-3 border border-1 border-warning rounded" placeholder="5 Bedroom Duplex post con cleaning">
+                        </div>
+                        <div class="pt-2 px-4 pb-3 d-flex justify-content-between">
+                            <div class="col-6 pe-3">                                
+                                <div class="text-start">Service amount</div>
+                                <input type="number" class="col-12 p-3 border border-1 border-warning rounded" placeholder="NGN 45,000">
+                            </div>
+                            <div class="col-6">                                
+                                <div class="text-start">Total amount</div>
+                                <input type="number" class="col-12 p-3 border-0 rounded bg-light" placeholder="NGN 48,375">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-end ms-2 mt-3">
+                        <div class="col-6 justify-content-between d-flex">                            
+                            <button class="btn btn-large border-primary text-primary fw-bold" style="width: 49.5%;">CANCEL</button>
+                            <button class="btn btn-large btn-warning text-light fw-bold p-3" style="width: 49.5%;">CREATE INVOICE</button>
                         </div>
                     </div>
                 </div>
